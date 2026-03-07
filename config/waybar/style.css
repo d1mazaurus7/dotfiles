@@ -1,0 +1,48 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 13px;
+    border: none;
+    border-radius: 15px; /* Закругляем всё */
+}
+
+window#waybar {
+    background-color: rgba(20, 20, 20, 0.6); /* Полупрозрачный черный (0.6 — уровень прозрачности) */
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Тонкая белая рамка для эффекта стекла */
+}
+
+/* Модули как отдельные островки с закруглением */
+#workspaces,
+#clock,
+#cpu,
+#memory,
+#pulseaudio,
+#tray {
+    padding: 0 15px;
+    margin: 4px 4px;
+    background-color: rgba(255, 255, 255, 0.1); /* Легкий фон для каждого модуля */
+    border-radius: 10px;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    color: rgba(255, 255, 255, 0.4);
+    transition: all 0.3s ease;
+}
+
+#workspaces button.active {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
+
+#workspaces button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+#clock {
+    font-weight: bold;
+}
