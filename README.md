@@ -1,14 +1,14 @@
 # My Arch Linux Dotfiles 
 
-мой конфиг для Hyprland на Arch linux
+ my Hyprland config (Arch Linux)
 
-- **ОС:** Arch Linux
-- **Процессор:** AMD Ryzen 5 7500F
-- **Видеокарта:** NVIDIA GeForce RTX 4060 Ti
-- **ОЗУ:** 32GB
+- **OS:** Arch Linux
+- **CPU:** AMD Ryzen 5 7500F
+- **GPU:** NVIDIA GeForce RTX 4060 Ti
+- **RAM:** 32GB
 - **WM:** Hyprland
-- **Терминал:** kitty
-- **Fetch:** fastfetch
+- **TERMINAL:** kitty
+- **FETCH:** fastfetch
 
-## Установка
-скопируйте содержимое папки `config/*` в свою директорию `~/.config/`.
+## Downloading
+Copy the contents of the `config/*` folder to your `~/.config/` directory.
