@@ -4,13 +4,13 @@
         "type": "auto",
         "source": "arch",
         "color": {
-            "1": "white", // Основной цвет логотипа
-            "2": "white"  // Дополнительный цвет (для теней/деталей)
+            "1": "white", 
+            "2": "white"
         }
     },
      "display": {
         "color": {
-            "keys": "white" // Делает OS:, Host:, Kernel: и т.д. белыми
+            "keys": "white"
         }
     },
 
@@ -18,9 +18,9 @@
         {
         "type": "title",
         "color": {
-            "user": "white",      // Цвет для 'dimazaurus7'
-            "at": "white",        // Цвет для '@'
-            "host": "white"       // Цвет для 'archlinux'
+            "user": "white",
+            "at": "white",      
+            "host": "white"       
         }
     },
         "separator",
