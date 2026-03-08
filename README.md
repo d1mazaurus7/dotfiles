@@ -10,5 +10,9 @@
 - **TERMINAL:** kitty
 - **FETCH:** fastfetch
 
-## Downloading
-Copy the contents of the `config/*` folder to your `~/.config/` directory.
+## Downloading, just write this in your terminal:
+
+git clone [https://github.com/d1mazaurus7/dotfiles.git]  (https://github.com/d1mazaurus7/dotfiles.git)
+cd dotfiles
+chmod +x install.sh
+./install.sh
