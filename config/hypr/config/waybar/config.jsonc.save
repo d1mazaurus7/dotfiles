@@ -9,7 +9,7 @@
 
     "modules-left": ["hyprland/workspaces", "network", "bluetooth"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "cpu", "memory", "custom/notification"],
+    "modules-right": ["pulseaudio", "cpu", "memory", "custom/notification"3],
 
     "hyprland/workspaces": {
         "disable-scroll": true,
